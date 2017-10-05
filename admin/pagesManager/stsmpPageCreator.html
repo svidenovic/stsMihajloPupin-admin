@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" >
+    <title> STŠMP - Page Creator </title>
+    <script type="text/javascript" src="../../deps/jquery.js" ></script>
+    <script type="text/javascript" src="../../deps/vjswebtools.js" ></script>
+    <script type="text/javascript" > vida.vtestlog("../../deps/vtestPass.php","../stsmplog.html"); </script>
+    
+    <link rel="stylesheet" type="text/css" href="stsmpPageCreator.css" />
+    <link rel="stylesheet" type="text/css" href="jwysiwyg/jquery.wysiwyg.css" type="text/css"/>
+    <script type="text/javascript" src="jwysiwyg/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="jwysiwyg/controls/wysiwyg.link.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="imgSlider.css" />
+    <script type="text/javascript" src="imgSlider.js" ></script>
+    <script type="text/javascript" src="stsmpPageCreator.js" ></script>
+</head>
+
+<body>
+
+    <div class="sideDiv">
+        <div class="divBind">
+            <div class="CTRLmenuLauncher_holder">
+                <button id="CTRLmenuLauncher">▼</button>
+            </div>
+            <div id="CTRLmenu_holder"></div>
+        </div>
+        <div id="insertBox"></div>
+    </div>
+    <div class="generalbarDiv">
+        <a class="stsmpbackBtn" href="#" id="goBackBTN" >GO BACK</a>
+        <p class="separatorP"></p>
+        <input class="INpagename" id="INpagename" />
+        <select class="SELmenu" id="SELmenu"></select>
+        <button class="stsmpSCBtn" id="BTNpageNameAndMenuSave" >APPLY</button>
+    </div>
+    
+    <div class="divCentralizer">
+        <div id="pageMainDiv"></div>
+    </div>
+    
+</body>
+</html>

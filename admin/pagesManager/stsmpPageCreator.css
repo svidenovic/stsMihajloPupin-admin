@@ -1,0 +1,1015 @@
+
+div.generalbarDiv {
+    width: 790px;
+    height: 31px;
+    display: block;
+    position: relative;
+    background-color: #ededed;
+    margin: 10px auto 0 auto;
+    padding: 5px;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+}
+
+div.hrdiv {
+    position: relative;
+    display: block;
+    float: left;
+    width: 690px;
+    height: 1px;
+    background-color: #b1b1b1;
+    margin: 5px 0 0 0;
+}
+
+div.toolbarDiv {
+    width: 490px;
+    height: 30px;
+    display: block;
+    position: relative;
+    background-color: #ededed;
+    margin: 10px auto 0 auto;
+    padding: 5px;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+}
+
+p.pctrlbtn {
+    width: 98px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 5px 0 5px 0;
+    margin: 0;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #888888;
+    cursor: pointer;
+    text-align: center;
+}
+p:hover.pctrlbtn
+{ background-color: #5a5a5a; }
+p:active.pctrlbtn
+{ background-color: #15cf68; color: #ffffff; font-weight: bold; }
+
+div.divCentralizer {
+    width: 822px;
+    height: 10px;
+    display: block;
+    position: relative;
+    margin: 10px auto 0 auto;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+div#pageMainDiv {
+    width: 800px;
+    min-height: 400px;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin: 0 0 50px 0;
+    padding: 10px;
+    background-color: #ededed;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+}
+
+a.stsmpbackBtn {
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 18px;
+    padding: 7px 0 5px 0;
+    margin: 0;
+    display: block;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a:hover.stsmpbackBtn
+{ color: #15cf68; }
+a:active.stsmpbackBtn
+{ color: #ffffff; background-color: #b1b1b1; }
+
+button.stsmpSCBtn {
+    position: relative;
+    float: right;
+    width: 80px;
+    height: 30px;
+    margin: 0;
+    display: block;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 13px;
+    background-color: #888888;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+button:hover.stsmpSCBtn
+{ background-color: #5a5a5a; }
+button:active.stsmpSCBtn
+{ background-color: #15cf68; color: #ffffff; }
+
+p.separatorP {
+    position: relative;
+    float: left;
+    width: 1px;
+    height: 30px;
+    padding: 0;
+    margin: 0 5px 0 5px;
+    display: block;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #b1b1b1;
+    text-align: center;
+    cursor: default;
+    text-decoration: none;
+}
+
+input.INpagename {
+    width: 340px;
+    height: 18px;
+    background-color: #ffffff;
+    border: 1px solid #b1b1b1;
+    border-radius: 5pt;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    outline: none;
+    float: left;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+}
+
+select.SELmenu {
+    width: 240px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #b1b1b1;
+    border-radius: 5pt;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    outline: none;
+    float: left;
+    display: block;
+    position: relative;
+    margin: 0 0 0 5px;
+}
+
+/* #ededed #b1b1b1 #888888 #5a5a5a #15cf68 */
+
+div.sideDiv {
+    position: fixed;
+    display: block;
+    width: 80px;
+    height: 15px;
+    margin: 50px 0 0 0;
+    padding: 5px;
+    background-color: #5a5a5a;
+    border: none;
+    z-index: 100;
+    border: none;
+    border-radius: 5pt;
+}
+
+div.divBind {
+    position: relative;
+    display: block;
+    float: left;
+    width: 80px;
+    height: 141px;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+
+button#CTRLmenuLauncher {
+    position: relative;
+    display: block;
+    float: left;
+    width: 80px;
+    height: 15px;
+    margin: 0;
+    background-color: #888888;
+    border: none;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+button:hover#CTRLmenuLauncher
+{ background-color: #5a5a5a; }
+button:active#CTRLmenuLauncher
+{ background-color: #15cf68; color: #ffffff; }
+
+div#CTRLmenu_holder {
+    position: relative;
+    display: none;
+    float: left;
+    width: 80px;
+    height: 0;
+    margin: 0;
+    background-color: #888888;
+    border-left: none; border-right: none; 
+    border-top: 1px solid #b1b1b1; border-bottom: none;
+}
+
+button.CTRLmenuBTNs {
+    position: relative;
+    display: block;
+    float: left;
+    width: 80px;
+    height: 20px;
+    margin: 0;
+    background-color: #888888;
+    border: none;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: left;
+}
+button:hover.CTRLmenuBTNs
+{ background-color: #5a5a5a; }
+button:active.CTRLmenuBTNs
+{ background-color: #15cf68; color: #ffffff; }
+
+div#insertBox {
+    position: relative;
+    display: none;
+    float: left;
+    width: 0;
+    height: 141px;
+    margin: 0 0 0 5px;
+    background-color: #888888;
+    border: none;
+}
+
+button.insertBTNs {
+    position: relative;
+    display: block;
+    float: left;
+    width: 80px;
+    height: 20px;
+    margin: 0;
+    background-color: #888888;
+    border: none;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: left;
+}
+button:hover.insertBTNs
+{ background-color: #5a5a5a; }
+button:active.insertBTNs
+{ background-color: #15cf68; color: #ffffff; }
+
+p.pgitemTitle {
+    width: 790px;
+    height: 40px;
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    text-align: center;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 28px;
+    background-color: transparent;
+    cursor: default;
+}
+
+/* #ededed #b1b1b1 #9a9a9a #888888 #5a5a5a #15cf68 */
+
+div.itemHolderDiv {
+    float: left;
+    position: relative;
+    display: inline-block;
+    width: 800px;
+    height: auto;
+    min-height: 10px;
+    background-color: #d7d7d7;
+    border: none;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+div.itemHolderDiv4Title {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 790px;
+    height: auto;
+    min-height: 10px;
+    background-color: transparent;
+    border: none;
+    margin: 0 0 10px 0;
+    padding: 5px;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+textarea.textitemTxtarea {
+    position: relative;
+    float: left;
+    display: inline-block;
+    min-height: 50px;
+    height: auto;
+    width: 788px;
+    background-color: #ffffff;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 1px solid #5a5a5a;
+    border-radius: 3pt;
+    outline: none;
+    resize: both;
+    margin: 0;
+    padding: 5px;
+}
+
+input.picture_uploadField {
+    position: relative;
+    float: left;
+    width: 445px;
+    height: 25px;
+    display: block;
+    padding: 5px 0 5px 5px;
+    margin: 5px 0 0 0;
+    float: left;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    cursor: default;
+}
+
+p.piclabel {
+    /*width: 100px;*/
+    height: 20px;
+    position: relative;
+    display: block;
+    float: left;
+    padding: 7px 0 8px 0;
+    margin: 5px 0 0 5px;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: default;
+}
+input.numberInField {
+    width: 60px;
+    height: 23px;
+    position: relative;
+    display: block;
+    float: left;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 8px 30px 0 5px;
+    text-align: center;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+img.pictureUFpreview {
+    position: relative;
+    display: block;
+    float: left;
+    width: 500px;
+    min-width: 50px;
+    max-width: 800px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    margin-right: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+div.lineBRdiv {
+    width: 800px;
+    height: 1px;
+    position: relative;
+    display: block;
+    float: left;
+    background-color: #888888;
+    margin: 0;
+}
+
+button.itemSCbtn {
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 20px;
+    margin: 5px 0 5px 5px;
+    display: block;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 10px;
+    background-color: #888888;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+button:hover.itemSCbtn
+{ background-color: #5a5a5a; }
+button:active.itemSCbtn
+{ background-color: #15cf68; color: #ffffff; }
+
+div.textHTMLholderDiv {
+    float: left;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    min-height: 10px;
+    min-width: 10px;
+    max-width: 800px;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+img.imgDisplayMode {
+    position: relative;
+    display: block;
+    float: left;
+    width: 500px;
+    min-width: 50px;
+    max-width: 800px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 150px;
+    margin-right: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+input.imgs_uploadField {
+    position: relative;
+    float: left;
+    width: 480px;
+    height: 25px;
+    display: block;
+    padding: 5px 0 5px 5px;
+    margin: 3px 5px 0 0;
+    float: left;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    cursor: default;
+}
+
+button.itemDUDbtn {
+    position: relative;
+    float: left;
+    height: 20px;
+    margin: 10px 0 5px 5px;
+    display: block;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 10px;
+    background-color: #888888;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+button:hover.itemDUDbtn
+{ background-color: #5a5a5a; }
+button:active.itemDUDbtn
+{ background-color: #15cf68; color: #ffffff; }
+
+div.imgHolder {
+    width: 790px;
+    height: auto;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    position: relative;
+    display: block;
+    float: left;
+    background-color: #888888;
+    overflow: auto;
+}
+
+input.numberInputField {
+    width: 60px;
+    height: 23px;
+    position: relative;
+    display: block;
+    float: left;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 30px 0 5px;
+    text-align: center;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+button.refSlider {
+    position: relative;
+    float: left;
+    height: 25px;
+    margin: 10px 0 10px 5px;
+    display: block;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #888888;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+button:hover.refSlider
+{ background-color: #5a5a5a; }
+button:active.refSlider
+{ background-color: #15cf68; color: #ffffff; }
+
+img.gallimg {
+    position: relative;
+    display: block;
+    float: left;
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffffff;
+}
+
+div.sliderHolderDIV {
+    position: relative;
+    display: none;
+    float: left;
+    width: 600px;
+    height: 100px;
+    background-color: transparent;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 0;
+}
+
+button.SaveCancelBTN {
+    position: relative;
+    float: right;
+    width: 70px;
+    height: 20px;
+    margin: 5px 5px 5px 0;
+    display: block;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 10px;
+    background-color: #888888;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+button:hover.SaveCancelBTN
+{ background-color: #5a5a5a; }
+button:active.SaveCancelBTN
+{ background-color: #15cf68; color: #ffffff; }
+
+div.sliderHolderDIVd {
+    position: relative;
+    display: block;
+    float: left;
+    width: 600px;
+    height: 100px;
+    background-color: transparent;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 0;
+}
+
+img.loadBarimgGIF {
+    position: relative;
+    float: left;
+    display: block;
+    width: 220px;
+    height: 19px;
+    padding: 0;
+    margin: 5px 0 0 290px;
+}
+img.loadBarimgGIFgall {
+    position: relative;
+    float: left;
+    display: block;
+    width: 220px;
+    height: 19px;
+    padding: 0;
+    margin: 5px 0 0 400px;
+}
+
+input.filenameInput {
+    position: relative;
+    display: block;
+    float: left;
+    width: 300px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 1px solid #b1b1b1;
+    border-radius: 5pt;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    outline: none;
+    float: left;
+    display: block;
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+}
+
+input.file_uploadField {
+    position: relative;
+    float: left;
+    width: 320px;
+    height: 25px;
+    display: block;
+    padding: 0;
+    margin: 8px 5px 5px 0;
+    float: left;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    cursor: default;
+}
+
+button.SaveCancelBTNfile {
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 20px;
+    margin: 10px 5px 5px 0;
+    display: block;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 10px;
+    background-color: #888888;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+button:hover.SaveCancelBTNfile
+{ background-color: #5a5a5a; }
+button:active.SaveCancelBTNfile
+{ background-color: #15cf68; color: #ffffff; }
+
+div.dwnldIco {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: transparent;
+    background-image: url("../../deps/dnwldIco.png");
+    margin: 5px;
+}
+a.dwnldLink {
+    float: left;
+    display: block;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #5a5a5a;
+    text-decoration: none;
+    margin: 7px 0 0 0;
+}
+a:hover.dwnldLink{ color: #000000; }
+a:active.dwnldLink{ color: #ffffff; }
+
+input.embedsrcin {
+    position: relative;
+    display: block;
+    float: left;
+    width: 670px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+    outline: none;
+    cursor: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+p.embedlabel {
+    /*width: 100px;*/
+    height: 20px;
+    position: relative;
+    display: block;
+    float: left;
+    padding: 7px 0 8px 0;
+    margin: 3px 0 0 5px;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: default;
+}
+
+div.embedIF {
+    position: relative;
+    display: block;
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 340px;
+    margin-left: 340px;
+    background-color: #5a5a5a;
+    border: none;
+    outline: none;
+}
+
+div.embedItem {
+    position: relative;
+    display: block;
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 340px;
+    margin-left: 340px;
+    background-color: #5a5a5a;
+    border: none;
+    outline: none;
+}
+
+input.iframeWandH {
+    position: relative;
+    display: block;
+    float: left;
+    width: 60px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px 5px 5px 5px;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    outline: none;
+    cursor: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+select.embedsizeSelect {
+    width: 150px;
+    height: 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5pt;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    outline: none;
+    float: left;
+    display: block;
+    position: relative;
+    padding: 0 5px 0 5px;
+    margin: 5px 10px 10px 5px;
+}
+
+div.divspace {
+    position: relative;
+    display: block;
+    float: left;
+    width: 433px;
+    height: 30px;
+    margin: 5px 5px 5px 5px;
+    background-color: transparent;
+}
+
+div.hrline {
+    width: 800px;
+    height: 1px;
+    position: relative;
+    display: block;
+    float: left;
+    background-color: #888888;
+    margin: 0;
+}
+
+p.linklabel {
+    width: 90px;
+    height: 20px;
+    position: relative;
+    display: block;
+    float: left;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 0 10px;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: default;
+}
+
+input.linkInput {
+    position: relative;
+    display: block;
+    float: left;
+    width: 680px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px 5px 0 5px;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: #ffffff;
+    outline: none;
+    cursor: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+div.divspaceLink {
+    position: relative;
+    display: block;
+    float: left;
+    width: 640px;
+    height: 30px;
+    margin: 5px 5px 5px 5px;
+    background-color: transparent;
+}
+
+a{ color: #0a6b9d; text-decoration: none; }
+a:hover  { color: #08abff; }
+a:active { color: #000000; }
+
+a.linkitem {
+    position: relative;
+    display: block;
+    float: left;
+    color: #0a6b9d;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 5px;
+}
+a:hover.linkitem  { color: #08abff; }
+a:active.linkitem { color: #000000; }
+
+textarea.imgsigTXTa {
+    width: 768px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #b1b1b1;
+    border-radius: 5pt;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    outline: none;
+    float: left;
+    display: block;
+    position: relative;
+    margin: 5px 10px 10px 10px;
+    padding: 5px;
+    resize: none;
+}
+
+input.Combpicture_uploadField {
+    position: relative;
+    float: left;
+    width: 595px;
+    height: 25px;
+    display: block;
+    padding: 5px 0 5px 5px;
+    margin: 5px 0 0 0;
+    float: left;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    cursor: default;
+}
+
+div.prevLabel {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    display: block;
+    float: left;
+    padding: 5px 0 5px 0;
+    margin: 5px 350px 5px 350px;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    text-align: center;
+    cursor: default;
+    border-radius: 5px;
+    cursor: pointer;
+}
+div:hover.prevLabel  { background-color: #5a5a5a; color: #15cf68; }
+div:active.prevLabel { background-color: #15cf68; color: #ffffff; }
+
+div.ComboHolderDiv {
+    float: left;
+    position: relative;
+    display: inline-block;
+    width: 800px;
+    height: auto;
+    min-height: 100px;
+    background-color: transparent;
+    margin: 0 0 5px 0;
+    padding: 0;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #5a5a5a;
+}
+
+img.htmlImgClass {
+    position: relative;
+    display: block;
+    float: left;
+    /*width: 400px;*/
+    height: auto;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+div.divspaceC {
+    position: relative;
+    display: block;
+    float: left;
+    width: 650px;
+    height: 30px;
+    margin: 0;
+    background-color: transparent;
+}
+
+
+

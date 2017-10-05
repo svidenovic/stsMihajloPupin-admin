@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <title> STŠMP - Pages Manager </title>
+    <link rel="stylesheet" type="text/css" href="stsmppagesmanager.css" />
+    <script type="text/javascript" src="../../deps/jquery.js" ></script>
+    <script type="text/javascript" src="../../deps/vjswebtools.js" ></script>
+    <script type="text/javascript" > vida.vtestlog("../../deps/vtestPass.php","../stsmplog.html"); </script>
+    <script type="text/javascript" src="stsmppagesmanager.js" ></script>
+</head>
+
+<body>
+    
+    <div id="popupboxHolder"></div>
+    <h1 class="stsmppmh1"> STŠ Mihajlo Pupin - Pages Manager </h1>
+    <div class="stsmppmDiv">
+        <img id="loaderbar" src="../../deps/no-loader.png" /> 
+        <a class="stsmpbackBtn" href="../stsmpManagers.html"> BACK </a>
+        <div class="stsmpctrlBtns" id="stsmpPcreate"> CREATE </div>
+        <div class="stsmpctrlBtns" id="stsmpPedit"  > EDIT </div>
+        <div class="stsmpctrlBtns" id="stsmpPdelete"> DELETE </div>
+        <div class="stsmpctrlBtns" id="stsmpPmovup" > move <b>▲</b> </div>
+        <div class="stsmpctrlBtns" id="stsmpPmovdwn"> move <b>▼</b> </div>
+        <!-- class="stsmpPages" -->
+        <div id="stsmpPages" class="stsmpPagesHolderDiv"></div>
+    </div>
+
+</body>
+</html>

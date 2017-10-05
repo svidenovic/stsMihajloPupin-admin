@@ -1,0 +1,146 @@
+
+/* stsmplog */
+
+h1.stsmplogh1 {
+    width: 600px;
+    height: 30px;
+    padding: 10px 0 10px 0;
+    margin: 100px auto 10px auto;
+    display: block;
+    border: 1px solid #b1b1b1;
+    background-color: #ededed;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: default;
+}
+
+div.stsmplogmaindiv {
+    position: relative;
+    width: 600px;
+    height: 100px;
+    padding: 0;
+    margin: 0 auto 10px auto;
+    display: block;
+    border: 1px solid #b1b1b1;
+    background-color: #ededed;
+    border-radius: 5px;
+}
+
+div.stsmplogpar {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    padding: 5px 0 5px 0;
+    margin: 30px 0 0 115px;
+    display: block;
+    float: left;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    text-align: center;
+    cursor: default;
+}
+
+input.stsmploginput {
+    position: relative;
+    width: 200px;
+    height: 20px;
+    padding: 5px 0 5px 0;
+    margin: 30px 0 0 0;
+    display: block;
+    float: left;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+    outline: none;
+}
+
+div.stsmplogbtn {
+    position: relative;
+    width: 70px;
+    height: 20px;
+    padding: 5px 0 5px 0;
+    margin: 30px 0 0 5px;
+    display: block;
+    float: left;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+div:hover.stsmplogbtn
+{ color: #15cf68; }
+div:active.stsmplogbtn
+{ color: #ffffff; background-color: #b1b1b1; }
+
+
+
+/* stsmpManagers */
+
+div.stsmpManagerDiv {
+    position: relative;
+    width: 320px;
+    height: 150px;
+    padding: 0;
+    margin: 0 auto 10px auto;
+    display: block;
+    border: 1px solid #b1b1b1;
+    background-color: #ededed;
+    border-radius: 5px;
+}
+
+div.stsmplogObtn {
+    position: relative;
+    width: 70px;
+    height: 20px;
+    padding: 7px 0 3px 0;
+    margin: 5px auto 10px auto;
+    display: block;
+    color: #5a5a5a;
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+div:hover.stsmplogObtn
+{ color: #15cf68; }
+div:active.stsmplogObtn
+{ color: #ffffff; background-color: #b1b1b1; }
+
+a.stsmpmanagers {
+    position: relative;
+    width: 300px;
+    height: 14px;
+    padding: 7px 0 7px 0;
+    margin: 0 auto 5px auto;
+    display: block;
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: #b1b1b1;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a:hover.stsmpmanagers
+{ color: #ededed; background-color: #937878 }
+a:active.stsmpmanagers
+{ color: #ffffff; background-color: #15cf68; }
+
+
+
+
